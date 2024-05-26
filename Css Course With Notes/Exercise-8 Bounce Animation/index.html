@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-8 Bounce Ball</title>
+    <style>
+        .container {
+            position: relative;
+            top: 100px;
+            left: 190px;
+            width: 60vw;
+            height: 70vh;
+            background-color: blueviolet;
+        }
+
+        .ball {
+            background-color: red;
+            border-radius: 60px;
+            width: 130px;
+            height: 121px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            /* animation: BallAnimationInY 2s ease-out 0s backwards,
+            BallAnimationInX 2s linear 0s infinite backwards; */
+            /* animation: BallAnimationInY 2s ease-out 0s alternate,
+                       BallAnimationInX 2s linear 0s infinite alternate; */
+                       animation: BallAnimation 4s cubic-bezier(.25, .46, .45, .94) infinite alternate;
+
+        }
+        @keyframes BallAnimation {
+        0% {
+            transform: translate(0, 0);
+        }
+        25% {
+            transform: translate(375px, -150px);
+        }
+        50% {
+            transform: translate(750px, -0);
+        }
+        75% {
+            transform: translate(375px, -150px);
+        }
+        100% {
+            transform: translate(0, -0);
+        }
+    }
+
+        /* @keyframes BallAnimationInX {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(750px);
+            }
+        }
+        @keyframes BallAnimationInY {
+            from {
+                transform: translateY(0);
+            }
+
+            to {
+                transform: translateY(-200px);
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+</body>
+
+</html>

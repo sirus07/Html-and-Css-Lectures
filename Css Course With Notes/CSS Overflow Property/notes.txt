@@ -1,0 +1,8 @@
+ overflow: hidden auto;
+            |     |
+           x-value    y-value     
+
+ overflow-x: hidden;-| These two for 
+overflow-y: scroll; -| individual setting the property of overflow
+
+If you want horizontal scroll bar working then you have to give  white-space: nowrap; to work 

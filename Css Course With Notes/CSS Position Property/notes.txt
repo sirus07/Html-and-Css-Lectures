@@ -1,0 +1,13 @@
+boxes have by default static property that lock their movement like if i want to add margin top left right so i can't do that
+but if change static property to relative property i can do that only i want to remove the static property
+
+position: relative;
+
+if i want to show the box 1 first and second box behind the box 1 so use z index
+all you have to remove the static property and use the relative and absolute property
+
+Relative - Apni orginal position se change hogi
+Absolute - apne parent ke relative position change hogi
+Fixed - page mein position fixed hojaygi
+Sticky - page mein kahin bhi ho, scroll krne pr neeche nhi jaygi, stick hojaygi
+sticky genrally navbar ka liiye use krte hai

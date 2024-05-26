@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Overflow Property</title>
+    <style>
+        
+
+            .box {
+            width: 30vw;
+            height: 40vh;
+            border: 3px solid black;
+            overflow: hidden; /* set the overflow property to 'hidden' */
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        .about{
+            border: 3px solid red;
+            width: 30vw;
+            height: 30vh;
+            margin-top: 20px;
+            /* overflow: auto;
+            overflow-x: hidden;
+            overflow-y: scroll; */
+            overflow: hidden auto;
+            /*           |     |
+                    x-value    y-value             */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        
+       I am a good boy and i want to write Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto nisi laboriosam eveniet ratione deserunt libero perspiciatis atque doloribus? Libero, maxime soluta? Aspernatur iste, consequuntur dicta magni illum delectus fugiat tempora rem facilis cumque asperiores itaque, quis dolorum dignissimos, laborum corporis neque incidunt! Sint, eligendi.
+        
+    </div>
+    <div class="about">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ipsum rem provident aut laudantium, atque facilis dolore incidunt, velit a quaerat! Consequuntur suscipit laudantium, aspernatur, eius vitae assumenda in alias nisi officiis quam, explicabo blanditiis quasi eveniet dolor accusantium. Eligendi consequuntur doloribus nisi repellat perspiciatis deleniti adipisci possimus, sapiente recusandae alias eum corrupti consectetur perferendis, reprehenderit explicabo. Omnis ex quos eius veritatis sed doloribus eos illo ipsa minima quae, consequatur dolores vel, delectus impedit sint, dicta porro iure optio. Sint cum consectetur laudantium officia unde debitis libero repellendus, dignissimos odio!
+    </div>
+</body>
+
+</html>

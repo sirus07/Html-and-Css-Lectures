@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model - Margin, Padding & Borders</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 {
+            background-color: aqua;
+            color: black;
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+
+        .box2 {
+            background-color: blueviolet;
+            color: rgb(47, 44, 62);
+            margin: 30px;
+            padding: 10px;
+            border: 3px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+    </style>
+    <!-- margin collapse is a concept that if you take two box and you give them a margin and you see that the margin between
+    those boxes
+    is not addition of those margins it takes the higher margin of those two boxes margin in between those two boxes -->
+</head>
+
+<body>
+    <div class="box1">This is box 1</div>
+    <div class="box2">This is box 2</div>
+</body>
+
+</html>

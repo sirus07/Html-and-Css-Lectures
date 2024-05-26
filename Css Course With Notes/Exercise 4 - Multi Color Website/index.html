@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Color Navbar
+    </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        :root {
+            --bodybgcolor: rgb(176, 176, 239);
+            --homecolor: red;
+            --aboutcolor: orange;
+            --portcolor: black;
+            --servicescolor: purple;
+            --gallerycolor: lightblue;
+            --contactcolor: green;
+            --navcolor: rgb(1, 1, 196);
+        }
+
+        body {
+            background-color: var(--bodybgcolor);
+        }
+
+        .nav {
+            background-color: var(--navcolor);
+        }
+
+        .navlist {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        .navlist li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+
+        #Home {
+            background-color: var(--homecolor);
+        }
+
+        #about {
+            background-color: var(--aboutcolor);
+        }
+
+        #portfolio {
+            background-color: var(--portcolor);
+        }
+
+        #services {
+            background-color: var(--servicescolor);
+        }
+
+        #gallery {
+            background-color: var(--gallerycolor);
+        }
+
+        #contact {
+            background-color: var(--contactcolor);
+        }
+
+        .navlist li a:hover {
+            background-color: #413f3f !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+
+            <nav>
+                <ul class="navlist">
+                    <li><a id="Home" href="#home">HOME</a></li>
+                    <li><a id="about" href="#about">ABOUT</a></li>
+                    <li><a id="portfolio" href="#portfolio">PORTFOLIO</a></li>
+                    <li><a id="services" href="#services">SERVICES</a></li>
+                    <li><a id="gallery" href="#gallery">GALLERY</a></li>
+                    <li><a id="contact" href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            </ul>
+        </div>
+    </header>
+
+</body>
+
+</html>

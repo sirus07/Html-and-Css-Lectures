@@ -1,0 +1,44 @@
+📸 Introduction to Object Fit and Object Cover Property
+- Explanation of the need for object fit and object position properties in CSS.
+- Introduction to the object fit property and a mention of covering and maintaining aspect ratio.
+- Brief overview of the upcoming demonstration using a container and an image.
+
+📏 Creating a Container and Image with CSS
+- Creation of a container with specified height, width, and border properties.
+- Addition of an image to the container without considering aspect ratio.
+- Initial attempt to manually adjust image width and height to fit the container.
+
+🛠️ Solving Aspect Ratio Issues with Object Fit Property
+- Introduction and explanation of the CSS object fit property.
+- Demonstration of using "object-fit: cover" to maintain aspect ratio and cover the container.
+- Clarification on how object fit covers the specified width and height while maintaining aspect ratio.
+
+📍 Customizing Image Display with Object Position
+- Introduction to the object position property for fine-tuning image placement.
+- Explanation and demonstration of using object position values like "top right" and "bottom right."
+- Overview of how object position works in conjunction with object fit for precise control.
+
+🔄 Exploring Object Fit Property Values and Resetting
+- Overview of additional object fit property values: "fill," "contain," "scale down," and "none."
+- Demonstration of how each value affects the image within the container.
+- Mention of the default value "fill" and resetting with "none."
+
+🌐 Applying Background Image with CSS
+- Transition to discussing background images and their application to containers.
+- Demonstration of using the background-image property with a URL.
+- Introduction to background position for controlling which part of the image is displayed.
+
+🔁 Controlling Background Image Repetition
+- Explanation of background image repetition and the default behavior.
+- Demonstration of using "no-repeat" to prevent image repetition.
+- Overview of background position for centering the background image.
+
+🎨 Understanding Background Clip Property
+- Introduction to the background clip property with values "border-box" and "padding-box."
+- Explanation of how background clip affects the display of background images.
+- Note on the limited use of background clip compared to other properties.
+
+📚 Course Review and Future Projects
+- Instructor's request for course reviews and feedback.
+- Assurance that the course covers essential web development concepts.
+- Anticipation for upcoming projects and continued learning in the course.

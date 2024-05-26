@@ -1,0 +1,297 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-7 design the grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .logo {
+            height: 40px;
+            width: 50px;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 25px 65px;
+        }
+
+        .logoinfo {
+            display: flex;
+            gap: 10px;
+            margin-left: 145px;
+
+        }
+
+        .unorderedlist li {
+            display: inline-block;
+            margin: 0px 35px 1px 2px;
+
+        }
+
+        .logoname {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .logoinfo h1 {
+            margin-bottom: 5px;
+            font-size: 33px;
+            /* Add this line to inline logoinfo */
+
+        }
+
+        .logoinfo span {
+            font-size: 10px;
+            margin: -7px 28px;
+        }
+
+        .unorderedlist li a {
+            text-decoration: none;
+            color: rgb(99, 99, 99);
+            font-size: 18px;
+        }
+
+        .unorderedlist {
+            list-style: none;
+            margin: 0px 35px 1px 2px;
+
+        }
+
+        .releasedate {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 110px;
+        }
+
+        .releasedate h1 {
+            padding-left: 15px;
+        }
+
+        .releasedate span {
+            padding: 0px 10px;
+            margin-top: 10px;
+        }
+
+        .donwlod-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .downloads-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #f9f9f9;
+            padding-top: 20px;
+            padding-right: 14px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 316px;
+            height: 151px;
+        }
+
+        @media (max-width: 768px) {
+            .downloads-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .win32 {
+            border-radius: 5px;
+            font-size: 12px;
+            padding: 8px 15px !important;
+            background-color: #00b6d1;
+            margin-top: 5px;
+            width: 135px;
+
+        }
+
+        .win64 {
+            border-radius: 5px;
+            font-size: 12px;
+            padding: 8px 15px !important;
+            background-color: #5CB85C;
+            margin-top: 5px;
+            width: 135px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .main-con a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+
+        .translated-word {
+            margin-top: -29px;
+            font-size: 13px;
+        }
+
+        .download-heading {
+            font-size: 20px;
+        }
+
+        .foot {
+            height: 40vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 39px;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logoinfo">
+                    <img class="logo" src="company icon.png" alt="">
+                    <div class="logoname">
+                        <h1 style="font-weight: bold;">Ultra Edit</h1>
+                        <span>An idera, Inc. company</span>
+                    </div>
+                </div>
+                <div class="list">
+                    <ul class="unorderedlist">
+                        <li> <a class="items" href="#">Products</a></li>
+                        <li> <a class="items" href="#">Pricing</a></li>
+                        <li> <a class="items" href="#">Resources</a></li>
+                        <li> <a class="items" href="#">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-con">
+            <div class="releasedate">
+                <img src="company icon.png" alt="" height="40px" width="50px">
+                <h1>Download UltraEdit</h1>
+                <span>v2023.2(released 12/15/2023) | Hotfix</span>
+            </div>
+            <div class="download-body">
+                <div class="downloads-container">
+                    <div class="box">
+                        <span class="download-heading" style="font-weight: bold;">English</span>
+                        <div class="buttons">
+                            <div class="win32"><a href="ue_english.exe">Download 32-bit</a></div>
+                            <div class="win64"><a href="ue_english_64.exe">Download 64-bit</a></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span class="download-heading" style="font-weight: bold;">Deutsch</span>
+                        <span class="translated-word">German</span>
+                        <div class="buttons">
+                            <div class="win32"><a href="ue_english.exe">Download 32-bit</a></div>
+                            <div class="win64"><a href="ue_english_64.exe">Download 64-bit</a></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span class="download-heading" style="font-weight: bold;">Italiano</span>
+                        <span class="translated-word">Italian</span>
+                        <div class="buttons">
+                            <div class="win32"><a href="ue_english.exe">Download 32-bit</a></div>
+                            <div class="win64"><a href="ue_english_64.exe">Download 64-bit</a></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span class="download-heading" style="font-weight: bold;">Español</span>
+                        <span class="translated-word">Spanish</span>
+                        <div class="buttons">
+                            <div class="win32"><a href="ue_english.exe">Download 32-bit</a></div>
+                            <div class="win64"><a href="ue_english_64.exe">Download 64-bit</a></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span class="download-heading" style="font-weight: bold;">français</span>
+                        <span class="translated-word">French</span>
+                        <div class="buttons">
+                            <div class="win32"><a href="ue_english.exe">Download 32-bit</a></div>
+                            <div class="win64"><a href="ue_english_64.exe">Download 64-bit</a></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span class="download-heading" style="font-weight: bold;">Português brasileiro</span>
+                        <span class="translated-word">Brazilian Portuguese</span>
+                        <div class="buttons">
+                            <div class="win32"><a href="ue_english.exe">Download 32-bit</a></div>
+                            <div class="win64"><a href="ue_english_64.exe">Download 64-bit</a></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span class="download-heading" style="font-weight: bold;">日本</span>
+                        <span class="translated-word">Japanese</span>
+                        <div class="buttons">
+                            <div class="win32"><a href="ue_english.exe">Download 32-bit</a></div>
+                            <div class="win64"><a href="ue_english_64.exe">Download 64-bit</a></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span class="download-heading" style="font-weight: bold;">한국어</span>
+                        <span class="translated-word">Korean</span>
+                        <div class="buttons">
+                            <div class="win32"><a href="ue_english.exe">Download 32-bit</a></div>
+                            <div class="win64"><a href="ue_english_64.exe">Download 64-bit</a></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span class="download-heading" style="font-weight: bold;">中国</span>
+                        <span class="translated-word">Chinese</span>
+                        <div class="buttons">
+                            <div class="win32"><a href="ue_english.exe">Download 32-bit</a></div>
+                            <div class="win64"><a href="ue_english_64.exe">Download 64-bit</a></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <span class="download-heading" style="font-weight: bold;">中國</span>
+                        <span class="translated-word">Traditional Chinese</span>
+                        <div class="buttons">
+                            <div class="win32"><a href="ue_english.exe">Download 32-bit</a></div>
+                            <div class="win64"><a href="ue_english_64.exe">Download 64-bit</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">Thanks for visiting!</div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+shift() is the bhai of pop() which removes the first element of an array and returns the new array. Whereas unshift() is the bhai of push() which adds an element to the beginning of an array and returns the new array.

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .box {
+        box-sizing: border-box;
+        border: 2px solid black;
+        /* width: 2048px; */
+        width: 80vw;
+        height: 10vh;
+        margin: auto;
+        background-color: aquamarine;
+    }
+
+    .container {
+        box-sizing: border-box;
+        border: 2px solid black;
+        /* width: 2048px; */
+        width: 80vw;
+        /* height: 80vh; */
+        min-height: 80vh;
+        margin: 23px auto; /* Auto means left right same margin to center the element*/
+        font-size: 14px; /*etna font size humne esko diya or em lagake total font size ho gaya 2x*/
+        background-color: aquamarine;
+    }
+    .container p{
+        font-size: 2em; /*em means jitna font size milne wala that utna em usme multiply karke total font size dedo*/
+    }
+    /* view port width and height is a taste of responsive website it means if you set  50 vw and 50 vh and u see your 
+    website in any screen it takes only these numbers width and height not higher width nor lower*/
+</style> 
+</head>
+<body>
+    <div class="box">
+        This is a box
+    </div>
+
+    <div class="container">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus quia quod iste dolorem
+            voluptatem fuga quidem aspernatur. Nihil ipsa sint quae, beatae explicabo saepe impedit laboriosam magni
+            cupiditate expedita voluptates consequatur odit veritatis dolorum doloribus. Iure nemo odit dicta, delectus,
+            modi reiciendis maiores ut quo adipisci libero quam laboriosam nihil voluptate natus nobis earum ad?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, non?
+        </p>
+    </div>
+
+</body>
+</html>

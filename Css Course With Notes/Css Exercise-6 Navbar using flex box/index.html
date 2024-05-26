@@ -1,0 +1,174 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            
+        }
+
+        .navbody {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            margin: 18px;
+        }
+
+        .navlist {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            gap: 36px;
+            margin-right: 300px;
+        }
+
+        /* .navlist li{
+            display: inline-flex;
+            margin-right: 10px;
+        } */
+        .navlist li a {
+
+            text-decoration: none;
+            color: rgb(99, 99, 99);
+        }
+
+        .logodiv {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-left: 145px;
+        }
+
+        .logodiv div span {
+            font-size: 10px;
+            padding-left: 20px;
+        }
+
+        .navlist li a {
+            font-size: 18px;
+
+        }
+
+        .navlist img {
+            height: 25px;
+        }
+
+        .navlist a:hover {
+            text-decoration: underline purple;
+
+        }
+
+        .heading {
+            color: black;
+            font-weight: 100;
+            font-size: 50px;
+        }
+
+        .bold-word {
+            font-weight: bold;
+            color: black;
+        }
+
+        .startcontent {
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+        }
+
+        .startcontent img {
+            height: 40px;
+            padding: 14px 17px;
+        }
+        .info{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center; /* Center-align text within .info */
+            margin: 39px 20px; 
+            font-size: 24px;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .info p:first-child {
+            margin-bottom: -15px;
+        }
+        .button{
+            width: 398px;
+            height: 20px;
+            color: white;
+            background-color: #00b6d1;
+           padding: 12px 20px;
+           font-size: 14px;
+           text-align: center;
+           border-radius: 5px;
+           margin: 66px 526px;
+        }
+        .released-date{
+            display: flex;
+        
+            align-items: center;
+            margin: 0px 276px;
+        }
+        .released-date p{
+            margin-left: 15px;
+        }
+        .foot{
+            height: 50vh;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <Header>
+        <nav>
+            <div class="navbody">
+                <div class="logodiv">
+                    <img class="navicon" src="company icon.png" alt="">
+                    <div>
+                        <h1 style="font-weight: bold;">Ultra Edit</h1>
+                        <span>An idera, Inc. company</span>
+                    </div>
+                </div>
+
+                <ul class="navlist">
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Pricing </a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <img src="translate logo.png" alt="">
+                </ul>
+            </div>
+        </nav>
+    </Header>
+    <main >
+        <div class="startcontent">
+            <h1 class="heading">Download <span class="bold-word">UltraEdit</span> for windows</h1>
+            <img src="Reviews.png" alt="">
+        </div>
+        <div class="info">
+            <p>Download and try UltraEdit before you buy it! This download includes the full Windows <br></p><br> 
+            <div class="center-text"><p>version of the text editor.</p></div>
+            <div class="button">DOWNLOAD MAC OR LINUX VERSION</div>
+            <div class="released-date">
+                <img class="navicon" src="company icon.png" alt="">
+                <p>Download UltraEdit v2023.2(released 12/15/2023) | Hotfix</p></div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot"></div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Animations</title>
+    <style>
+        .container{
+            height: 80vh;
+            width:60vw;
+            background-color: gray;
+        }
+        .box{
+            width: 34px;
+            height: 45px;
+            background-color: aqua;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; You can Use this this is format to write animation*/
+            animation-name: YuvrajAnimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function:cubic-bezier(0.89, 0.96, 0.08, 0.08);
+            /* animation-delay: 5s; */
+        }
+
+        @keyframes YuvrajAnimation {
+            from{
+
+            }
+            to{
+                transform: translateX(1000px);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box</div>
+    </div>
+</body>
+</html>

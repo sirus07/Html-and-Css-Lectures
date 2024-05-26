@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+           body {
+        font-family: 'Arial', sans-serif;
+    }
+
+    .content {
+        position: relative; /* Set the position to relative */
+    }
+
+    .background-image {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .navbar {
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px;
+        position: absolute; /* Set the position to absolute */
+        top: 0; /* Overlap the nav bar on the image */
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .Name {
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(161, 40, 40); /* Optionally set text color for better visibility */
+    }
+
+    .NavLogo {
+        margin-left: 130px;
+    }
+
+    .navui {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        gap: 36px;
+        margin-right: 80px;
+    }
+
+    .lists {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .navli {
+        list-style: none;
+    }
+</style>
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <img src="User Image.png" alt="" class="background-image">
+        <header>
+            <nav>
+                <div class="navbar">
+                    <div class="NavLogo">
+                        <span class="Name">Yuvraj Singh</span>
+                    </div>
+                    <ul class="navui">
+                        <li class="navli"><a class="lists" href="About.html">About</a></li>
+                        <li class="navli"><a class="lists" href="Projects.html">Projects</a></li>
+                        <li class="navli

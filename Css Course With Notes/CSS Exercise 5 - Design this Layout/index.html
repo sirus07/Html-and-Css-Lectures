@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Exercise 5 - Design this Layout </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* Adding a fallback font */
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .nav {
+            /*7E22CE*/
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            background-color: #7E22CE;
+            
+        }
+
+        .navlist {
+            display: flex;
+            justify-content: flex-end;
+            padding: 13px;
+
+        }
+
+        .navlist li a {
+
+            padding: 18px;
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .navlist li {
+            margin-left: 20px;
+            list-style: none;
+            font-size: 14px;
+
+        }
+
+        .logo {
+            width: 30px;
+            height: 30px;
+            margin-right: auto;
+
+        }
+
+        .navlist li a:hover {
+            text-decoration: underline;
+
+        }
+
+
+        .text {
+            border: 2px solid black;
+            border-radius: 50px;
+            font-size: 50px;
+            width: 80vw;
+            height: 150px;
+            padding: 50px;
+            margin-left: 130px;
+        }
+
+        .box1 {
+            width: 99vw;
+            height: 90vh;
+            background-color: aqua;
+            margin: 5px;
+            position: relative;
+        }
+
+        .box2 {
+            position: absolute;
+            width: 40vw;
+            height: 500px;
+            background-color: red;
+            margin: 60px;
+        }
+
+        .box3 {
+            position: absolute;
+            width: 40vw;
+            height: 500px;
+            background-color: black;
+            margin: 60px;
+            left: 800px;
+        }
+        .bottomimg{
+            position: fixed;
+            width: 120px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid rgb(0, 0, 0);
+            top: 80%; /* Adjust as needed */
+    left: 90%; /* Adjust as needed */
+        }
+        .foot{
+            background-color: black;
+            color: white;
+            height: 80px;
+            margin-top: 70px;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+
+        <nav>
+
+            <ul class="navlist">
+                <img class="logo" src="headphone-symbol.png" alt="">
+                <li><a id="Home" href="#home">HOME</a></li>
+                <li><a id="about" href="#about">ABOUT</a></li>
+                <li><a id="portfolio" href="#portfolio">PORTFOLIO</a></li>
+                <li><a id="services" href="#services">SERVICES</a></li>
+                <li><a id="gallery" href="#gallery">GALLERY</a></li>
+                <li><a id="contact" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <div class="box1">
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+
+    <div class="bodytext">
+        <div class="text">Welcome to this Sigma Web Devlopment Express</div>
+    </div>
+    <img class="bottomimg"src="https://img.freepik.com/premium-photo/teen-girl-headphones-listen-music-wireless-headset-device-accessory-child-enjoys-music-earphones-blue-background_545934-22566.jpg"
+        alt="">
+        <div class="foot">
+            <p>End of the Webiste. Have a good day! bye....</p>
+        </div>
+
+</body>
+
+</html>

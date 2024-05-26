@@ -1,0 +1,9 @@
+ list-style: none; ---> It can remove your marker for creating list for nav bar or if you wanna add something like disk,devanagari,roman numbers,etc. It can add it simply.
+
+list-style-type: "😊"; ---> If you wanna add something for marker Use this.
+
+list-style-position: inside; ----> If you not give this the marker cannot be inside the list if you use background u will definetly see it.
+
+/* list-style-image: url(); ----> If you wanna add some image instead of bullet or marks.
+
+/* list-style: disc inside url(); ----> If you wanna add all the above properties in one line.

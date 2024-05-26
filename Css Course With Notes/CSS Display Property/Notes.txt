@@ -1,0 +1,20 @@
+display: inline-block;
+display: inline;
+            /*If you give inline property and give some margin and pading so inline property don't obey this property
+            if you wanna have margin and padding from all side, you have to give inline-block property*/
+visibility: hidden;
+|--> it will only hide your text not the whole element text space.
+
+
+display: none;
+|--> it will remove all the box and text and space used by the box.
+
+ display: flex;
+justify-content: center;
+|--> If you want to center the text inside the box. So, you have to use these properties to center the text or anything
+
+display:flex are used mostly of the time to center not only for center but mostly of the time we will use it.
+
+ display: inline-flex; used it for making the element to come inline symetry and if we use only flex it will act as a block element
+
+All about the display properties are found you in this link...----> https://developer.mozilla.org/en-US/docs/Web/CSS/display

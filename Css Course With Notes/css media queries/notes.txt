@@ -1,0 +1,10 @@
+ CSS 2 --> Media Rule ] then in [ CSS 3 --> Media Tool ] ::::: - For the purpose of making responsive Websites, 'Responsive' in the sense of it's ability to adapt according to the different sizes of devices, the website is being accessed through.
+
+SYNTAX :-
+
+@media screen and (property : ) { css code }
+@media only screen and (property : ) { css code }
+@media not screen and (property : ){ css code }
+
+Here, 
+property can be (max-width : 12px), (min-width : ), (orientation : )

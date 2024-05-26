@@ -1,0 +1,15 @@
+box-shadow: h-offset v-offset blur spread color inset;
+h and v offset means horizontal and vertical height and width
+blur means how much blur
+spread means how much blur you want to spread
+color means blur color
+
+ outline: 2px solid blue;
+            outline-offset: 5px;
+
+outline is just like border but little diffrent from it you can increase or decrease outline width and height by outline-offset but in border
+you have to do padding or margin to change the size of the border
+but in border-radius: 10px 
+outline just follow the border in border radius
+and also you can change the curve of the border and outline with border radius property
+

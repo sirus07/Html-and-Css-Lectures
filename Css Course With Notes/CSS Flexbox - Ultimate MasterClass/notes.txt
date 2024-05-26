@@ -1,0 +1,16 @@
+- [00:00](https://youtu.be/DWk2mndNTHY?t=0s) 🎓 Flexbox simplifies layout creation in CSS, addressing historical challenges with floats and positioning.
+- [03:48](https://youtu.be/DWk2mndNTHY?t=228s) 🖥️ Applying `display: flex` to a container automatically arranges items left to right; adjusting properties like `justify-content` and `align-items` helps in centering.
+- [08:10](https://youtu.be/DWk2mndNTHY?t=490s) 🔄 Understanding `flex-direction` determines the layout direction (row/column), impacting the main and cross axes, while `flex-wrap` controls item wrapping.
+- [15:46](https://youtu.be/DWk2mndNTHY?t=946s) 🌀 `align-content` centers multiple lines in a flex container, while `align-items` centers a single line; `justify-items` is not a flexbox property.
+- [19:03](https://youtu.be/DWk2mndNTHY?t=1143s) 📏 The `gap` property sets spacing between flex items, with options for row and column gaps, simplifying layout design.
+
+
+- [20:58](https://www.youtube.com/watch?v=DWk2mndNTHY&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=39&t=1258s) 🌐 Understanding container properties: Most properties discussed are for the container, and understanding them is crucial for working with flexbox layouts.
+
+- [21:26](https://www.youtube.com/watch?v=DWk2mndNTHY&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=39&t=1286s) 🔄 Utilizing the "order" property: Adjusting the order of flex items can change their layout position, providing flexibility in arranging items.
+
+- [22:24](https://www.youtube.com/watch?v=DWk2mndNTHY&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=39&t=1344s) 📏 Understanding "flex grow": The "flex grow" property controls how items expand within the container, allowing for proportional distribution of available space.
+
+- [24:16](https://www.youtube.com/watch?v=DWk2mndNTHY&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=39&t=1456s) 📉 Exploring "flex shrink": "Flex shrink" determines an item's ability to shrink when there is limited space, with the value influencing the shrink rate.
+
+- [26:13](https://www.youtube.com/watch?v=DWk2mndNTHY&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=39&t=1573s) 🔄 Customizing with "align self": "Align self" allows the individual adjustment of a specific item's alignment within the container, offering flexibility in layout customization.

@@ -1,0 +1,9 @@
+🚀 Understanding float and clear is essential, even though their usage has decreased with the advent of Flexbox.
+
+Use `display: flow-root` to resolve overflow issues when using the float property in CSS.
+
+🛑 Utilize the `clear` property to control the floating behavior, such as `clear: right` to prevent elements from floating on the right side.
+
+⚠️ While understanding float and clear is important for maintaining old websites, it is recommended to avoid using them for modern layouts and instead opt for CSS Grid and Flexbox.
+
+⚠️ That's it We don't use float and clear to make the modern websites 

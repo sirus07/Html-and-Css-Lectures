@@ -1,0 +1,27 @@
+00:00 🌐 Introduction to CSS Transforms
+- Explanation of CSS transforms with focus on 2D and 3D transforms.
+- Distinction between 2D (scale, translate, rotate) and 3D transforms (adding z-axis).
+- Importance of understanding transforms for manipulating objects in web development.
+00:57 🖌️ Basic Usage of CSS Transform - Scale, Translate, and Rotate
+- Demonstrates basic HTML setup with a container and a box for applying transforms.
+- Introduction to the scale, translate, and rotate properties in CSS transform.
+- Practical examples of using transform properties on a box within a container.
+03:15 🔄 Understanding Rotate Property
+- Explanation of the rotate property with examples.
+- Discussion on rotating around different axes (X, Y, Z).
+- Introduction to using the "turn" unit for precise rotation.
+04:43 📏 Scale Property in CSS Transform
+- Overview of the scale property and its applications.
+- Examples of scaling in both X and Y dimensions.
+- Introduction to scale 3D for applying 3D transformations.
+05:38 🔀 Skew Property in CSS Transform
+- Explanation of the skew property and its effects.
+- Demonstrates skewing in both X and Y dimensions.
+- Clarification that skewing in Z axis is not applicable.
+06:36 🔄 Multiple Transform Properties and Translate Property
+- Guidance on applying multiple transform properties simultaneously.
+- Practical demonstration of using translate in X and Y dimensions.
+- Importance of translate in common scenarios like hiding navigation bars.
+08:24 🌐 Transform Origin and Its Applications
+- Explanation of transform origin and its default value (50-50 for center).
+- Demonstrates changing the origin point for rotation.
